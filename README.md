@@ -1,6 +1,6 @@
 # cliente-NodeMCU
 #Este programa realiza una conexión desde NodeMCU hacia la DB por MQTT
-
+```ruby
 
 #include <OneWire.h>
 #include <DallasTemperature.h>
@@ -97,4 +97,4 @@ void loop(){
   // Esto hay que poner en la raspberry:
   //   mosquitto_sub -h localhost -t sensor/boton/luminaria1
   }
-  
+  ```
